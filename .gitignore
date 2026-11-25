@@ -30,3 +30,55 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ipch/
+
+# Compiled Files
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.pch
+*.obj
+*.idb
+*.tlog/
+*.lastbuildstate
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+cmake-build-*/
+winbuild/
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*.sdf
+*.opensdf
+
+# Log Files
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
