@@ -1,7 +1,9 @@
 #pragma once
+
 class Entity
 {
-private:
+protected:
+	int m_iID;
 
 public:
 

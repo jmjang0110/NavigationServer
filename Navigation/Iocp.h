@@ -1,6 +1,7 @@
 #pragma once
 
-class Iocp
+class Entity;
+class Iocp : public Entity
 {
 private:
 

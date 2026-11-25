@@ -4,7 +4,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="Memory.cpp" />
-    <ClCompile Include="Iocp.cpp" />
     <ClCompile Include="Dx12.cpp">
       <Filter>Rendering</Filter>
     </ClCompile>
@@ -12,11 +11,16 @@
       <Filter>Rendering</Filter>
     </ClCompile>
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Iocp.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="Memory.h" />
-    <ClInclude Include="Iocp.h" />
     <ClInclude Include="Dx12.h">
       <Filter>Rendering</Filter>
     </ClInclude>
@@ -24,10 +28,19 @@
       <Filter>Rendering</Filter>
     </ClInclude>
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Iocp.h">
+      <Filter>Server</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Rendering">
       <UniqueIdentifier>{6de8f268-6ff9-432f-a5a0-e7cc1bfe457e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{74797e9f-8c4d-4dae-bd40-b10857fab93f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

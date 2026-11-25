@@ -1,4 +1,11 @@
 #pragma once
-class Render
-{};
+
+class Entity;
+class Render : public Entity
+{
+private:
+
+public:
+
+};
 

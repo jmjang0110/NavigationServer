@@ -1,5 +1,7 @@
 #pragma once
-class Memory
+
+class Entity;
+class Memory : public Entity
 {
 private:
 
